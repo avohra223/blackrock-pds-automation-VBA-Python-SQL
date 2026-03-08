@@ -1,0 +1,14 @@
+Fund_Name,Investment_ID,Asset,Commitment_Amount,Called_Capital,Distributed,NAV_Report_Date,CCY,Vintage,GP_Name,Strategy,Status
+Alpha Growth Fund I,AGF-001,TechStart GmbH,5000000,3500000,1200000,31.03.2025,EUR,2021,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-002,MedInnovate SA,3000000,2800000,0,31.03.2025,EUR,2021,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-003,CloudBase Ltd,4500000,4500000,2500000,31.03.2025,GBP,2022,Alpha Capital Partners,Growth Equity,Realized
+Alpha Growth Fund I,AGF-004,GreenTech Sp. z o.o.,2000000,1500000,300000,31.03.2025,PLN,2022,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-005,DataFlow Inc,6000000,5200000,,31.03.2025,USD,2021,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-006,RetailNext BV,3500000,3500000,4200000,31.03.2025,EUR,2020,Alpha Capital Partners,Growth Equity,Realized
+Alpha Growth Fund I,AGF-007,FinServ Kft,1500000,1200000,0,31.03.2025,HUF,2023,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-008,AutoDrive AG,,2000000,500000,31.03.2025,EUR,2022,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-009,BioPharm Ltd,4000000,3800000,1800000,31.03.2025,EUR,2021,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-010,LogiChain SRL,2500000,-500000,0,31.03.2025,RON,2023,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-011,EduPlatform AS,3000000,2200000,0,31.03.2025,EUR,2022,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-011,EduPlatform AS,3000000,2200000,0,31.03.2025,EUR,2022,Alpha Capital Partners,Growth Equity,Active
+Alpha Growth Fund I,AGF-012,CyberShield OY,5500000,4800000,900000,31.03.2025,EUR,2021,Alpha Capital Partners,Growth Equity,Active

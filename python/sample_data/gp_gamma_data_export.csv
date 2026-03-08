@@ -1,0 +1,12 @@
+company_name,ref_id,fund,commitment_eur,called_eur,distributions_eur,reporting_date,vintage_year,gp,strategy,status,nav_eur
+SolarPanel Pro,GGF-101,Gamma Growth III,4000000,3200000,800000,2025-03-31,2022,Gamma Fund Management,Buyout,Active,5100000
+MicroChip Design,GGF-102,Gamma Growth III,7000000,6500000,2000000,2025-03-31,2021,Gamma Fund Management,Buyout,Active,9800000
+FoodDelivery Plus,GGF-103,Gamma Growth III,3500000,3500000,5000000,2025-03-31,2020,Gamma Fund Management,Buyout,Realized,0
+InsurTech AG,GGF-104,Gamma Growth III,5000000,4200000,0,2025-03-31,2022,Gamma Fund Management,Buyout,Active,4800000
+PropTech Solutions,GGF-105,Gamma Growth III,6000000,5500000,1500000,2025-03-31,2021,Gamma Fund Management,Buyout,Active,8200000
+CyberDefense Corp,GGF-106,Gamma Growth III,4500000,3800000,0,2025-03-31,2023,Gamma Fund Management,Buyout,Active,4000000
+WasteRecycle Ltd,GGF-107,Gamma Growth III,2500000,2000000,500000,2025-03-31,2022,Gamma Fund Management,Buyout,Active,2800000
+TeleHealth Inc,GGF-108,Gamma Growth III,8000000,7000000,3000000,2025-03-31,2021,Gamma Fund Management,Buyout,Active,11000000
+SmartFactory,GGF-109,Gamma Growth III,3000000,TBD,0,2025-03-31,2023,Gamma Fund Management,Buyout,Active,1500000
+BatteryTech EU,GGF-110,Gamma Growth III,5500000,4800000,1000000,2025-03-31,2022,Gamma Fund Management,Buyout,Active,6500000
+DroneServices,GGF-111,Gamma Growth III,2000000,1800000,0,2025-03-31,2023,Gamma Fund Management,Buyout,Active,2100000
