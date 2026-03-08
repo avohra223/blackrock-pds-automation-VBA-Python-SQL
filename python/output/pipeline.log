@@ -1,0 +1,60 @@
+2026-03-08 14:16:54 | INFO     | pipeline             | ======================================================================
+2026-03-08 14:16:54 | INFO     | pipeline             | FUND DATA INGESTION & REPORTING PIPELINE
+2026-03-08 14:16:54 | INFO     | pipeline             | ======================================================================
+2026-03-08 14:16:54 | INFO     | pipeline             | 
+2026-03-08 14:16:54 | INFO     | pipeline             | STAGE 1: DATA INGESTION
+2026-03-08 14:16:54 | INFO     | pipeline             | ----------------------------------------
+2026-03-08 14:16:54 | INFO     | ingestion            | Processing: gp_alpha_quarterly.csv
+2026-03-08 14:16:54 | INFO     | ingestion            | Read 13 rows from gp_alpha_quarterly.csv
+2026-03-08 14:16:54 | INFO     | ingestion            | Detected source: gp_alpha
+2026-03-08 14:16:54 | INFO     | ingestion            | Mapped 13 columns for gp_alpha
+2026-03-08 14:16:54 | INFO     | ingestion            | Processing: gp_beta_fund_report.csv
+2026-03-08 14:16:54 | INFO     | ingestion            | Read 11 rows from gp_beta_fund_report.csv
+2026-03-08 14:16:54 | INFO     | ingestion            | Detected source: gp_beta
+2026-03-08 14:16:54 | INFO     | ingestion            | Mapped 15 columns for gp_beta
+2026-03-08 14:16:54 | INFO     | ingestion            | Processing: gp_gamma_data_export.csv
+2026-03-08 14:16:54 | INFO     | ingestion            | Read 11 rows from gp_gamma_data_export.csv
+2026-03-08 14:16:54 | INFO     | ingestion            | Detected source: gp_gamma
+2026-03-08 14:16:54 | INFO     | ingestion            | Mapped 14 columns for gp_gamma
+2026-03-08 14:16:54 | INFO     | ingestion            | Combined dataset: 35 rows from 3 files
+2026-03-08 14:16:54 | INFO     | pipeline             |   gp_alpha_quarterly.csv: 13 rows (gp_alpha)
+2026-03-08 14:16:54 | INFO     | pipeline             |   gp_beta_fund_report.csv: 11 rows (gp_beta)
+2026-03-08 14:16:54 | INFO     | pipeline             |   gp_gamma_data_export.csv: 11 rows (gp_gamma)
+2026-03-08 14:16:54 | INFO     | pipeline             |   Total records ingested: 35
+2026-03-08 14:16:54 | INFO     | pipeline             | 
+2026-03-08 14:16:54 | INFO     | pipeline             | STAGE 2: DATA VALIDATION
+2026-03-08 14:16:54 | INFO     | pipeline             | ----------------------------------------
+2026-03-08 14:16:54 | INFO     | validation           | Validation complete: 6 issues (6 critical, 0 warning)
+2026-03-08 14:16:54 | INFO     | pipeline             |   Issues found: 6 (6 critical, 0 warning)
+2026-03-08 14:16:54 | INFO     | pipeline             | 
+2026-03-08 14:16:54 | INFO     | pipeline             | STAGE 3: STANDARDIZATION & DATABASE LOAD
+2026-03-08 14:16:54 | INFO     | pipeline             | ----------------------------------------
+2026-03-08 14:16:54 | INFO     | standardization      | FX conversion complete: 6 currencies converted to EUR
+2026-03-08 14:16:54 | INFO     | standardization      | Removed 1 duplicate rows
+2026-03-08 14:16:54 | INFO     | standardization      | Standardized 34 records
+2026-03-08 14:16:54 | INFO     | standardization      | Loaded 34 records into output\fund_data.db
+2026-03-08 14:16:54 | INFO     | standardization      | Loaded 6 validation issues into database
+2026-03-08 14:16:54 | INFO     | standardization      | Logged 3 ingested files
+2026-03-08 14:16:54 | INFO     | pipeline             |   Database: 34 investments loaded
+2026-03-08 14:16:54 | INFO     | pipeline             |   Database: 6 validation issues logged
+2026-03-08 14:16:54 | INFO     | pipeline             | 
+2026-03-08 14:16:54 | INFO     | pipeline             | STAGE 4: REPORT GENERATION
+2026-03-08 14:16:54 | INFO     | pipeline             | ----------------------------------------
+2026-03-08 14:16:54 | INFO     | reporting            | Report saved to output\Quarterly_Report_Q1_2025.xlsx
+2026-03-08 14:16:54 | INFO     | pipeline             |   Report: output\Quarterly_Report_Q1_2025.xlsx
+2026-03-08 14:16:54 | INFO     | pipeline             | 
+2026-03-08 14:16:54 | INFO     | pipeline             | STAGE 5: EMAIL DRAFTING
+2026-03-08 14:16:54 | INFO     | pipeline             | ----------------------------------------
+2026-03-08 14:16:54 | INFO     | email_drafter        | Email drafted and saved to output\LP_Email_Q1_2025.txt
+2026-03-08 14:16:54 | INFO     | email_drafter        | EML version saved to output\LP_Email_Q1_2025.eml
+2026-03-08 14:16:54 | INFO     | pipeline             |   Email: output\LP_Email_Q1_2025.txt
+2026-03-08 14:16:54 | INFO     | pipeline             |   EML: output\LP_Email_Q1_2025.eml
+2026-03-08 14:16:54 | INFO     | pipeline             | 
+2026-03-08 14:16:54 | INFO     | pipeline             | ======================================================================
+2026-03-08 14:16:54 | INFO     | pipeline             | PIPELINE COMPLETE
+2026-03-08 14:16:54 | INFO     | pipeline             |   Files processed: 3
+2026-03-08 14:16:54 | INFO     | pipeline             |   Records loaded: 34
+2026-03-08 14:16:54 | INFO     | pipeline             |   Validation issues: 6
+2026-03-08 14:16:54 | INFO     | pipeline             |   Time elapsed: 0.13s
+2026-03-08 14:16:54 | INFO     | pipeline             |   Output directory: output/
+2026-03-08 14:16:54 | INFO     | pipeline             | ======================================================================

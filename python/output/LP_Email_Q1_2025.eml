@@ -1,0 +1,30 @@
+From: pds-reporting@blackrock.com
+To: stichting.pensioenfonds.europa@pensioenfonds.nl
+Date: Sun, 08 Mar 2026 14:16:54 +0100
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Subject: Quarterly Fund Data Report - Q1 2025
+
+Dear Stichting Pensioenfonds Europa,
+
+Please find attached the quarterly fund data report for Q1 2025, covering 3 funds and 34 investments across 3 general partners.
+
+Summary:
+- Total commitments: EUR 142,515,475
+- Total called capital: EUR 122,380,110
+- Total distributions: EUR 42,772,430
+- Call rate: 85.9%
+- Distribution rate (DPI): 0.35x
+
+Data Quality:
+- Records processed: 34
+- Validation issues: 6
+- Critical issues: 6
+
+Please note: 6 critical data quality issue(s) were identified during processing. These have been flagged in the attached report under the 'Validation Issues' tab for your review. We recommend addressing these with the relevant GP(s) before the next reporting cycle.
+
+The full report is attached as an Excel file. Please do not hesitate to reach out if you have any questions.
+
+Best regards,
+Private Data Service Team
+BlackRock Aladdin
