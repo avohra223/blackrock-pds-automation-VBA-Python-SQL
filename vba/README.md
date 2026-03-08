@@ -1,4 +1,4 @@
-# VBA Module: SME Loan Eligibility Checker
+# VBA: SME Loan Eligibility Checker
 
 ## Overview
 
@@ -15,10 +15,10 @@ Banks submit loan portfolios for eligibility screening. This add-in automates th
 ## File Structure
 
 ```
+excel/
+  SME_Loan_Eligibility_Checker_Input.xlsx      # Original workbook (pre-validation)
+  SME_Loan_Eligibility_Checker_Post_VBA.xlsm   # Complete workbook with VBA and results
 vba/
-  excel/
-    SME_Loan_Eligibility_Checker_Input.xlsx    # Original workbook (pre-validation, input data only)
-    SME_Loan_Eligibility_Checker.xlsm          # Complete workbook with VBA and validation results
   modules/
     modValidationEngine.bas       # Core eligibility validation (array-based batch processing)
     modIntegrityChecks.bas        # Pre-validation data quality checks
@@ -137,10 +137,10 @@ All eligibility thresholds are read from the Eligibility Criteria sheet at runti
 
 ## How to Set Up
 
-1. Open `SME_Loan_Eligibility_Checker_Input.xlsx` in Excel
+1. Open `excel/SME_Loan_Eligibility_Checker_Input.xlsx` in Excel
 2. Save As > Excel Macro-Enabled Workbook (.xlsm)
 3. Press `Alt+F11` to open the VBA Editor
-4. Right-click the project > Import File > import each `.bas` file from the `modules/` folder
+4. Right-click the project > Import File > import each `.bas` file from `vba/modules/`
 5. Double-click `ThisWorkbook` in the Project Explorer and paste the code from `ThisWorkbook.cls` (exclude the `Attribute VB_Name` line)
 6. Press `Alt+F8` > select `RunFullValidation` > Run
 
